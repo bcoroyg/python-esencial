@@ -55,3 +55,18 @@ python3 archivo.py
     + Ejemplo: **{"edad": 15}**
 
 
+### Programación
+* Es una secuencia de instrucciones que describe que debe realizar una computadora.
+* Las tareas que casi todos los programas realizan son:
+    + Entrada de datos.
+    + Salida de datos.
+    + Condicionales.
+    + Repeticiones.
+    + Operaciones mátematicas.
+
+
+### Instalación de tkinter
+* La librería de turtle require la siguiente dependencia.
+```
+sudo apt-get install python3-tk 
+``` 
