@@ -70,3 +70,51 @@ python3 archivo.py
 ```
 sudo apt-get install python3-tk 
 ``` 
+
+
+### Entorno Virtual
+* Creacion de entorno virtual.
+```
+virtualenv --python=python3 venv 
+``` 
+
+* Activacion de entorno virtual.
+```
+source venv/bin/activate 
+``` 
+
+### Editable
+* Instalacion.
+```
+pip install --editable . 
+``` 
+
+* Which
+```
+which tv 
+``` 
+
+* Help
+```
+tv --help 
+``` 
+
+* Clients Help
+```
+tv clients --help  
+``` 
+
+* Clients Create
+```
+tv clients create  
+``` 
+
+* Clients List
+```
+tv clients list  
+``` 
+
+* Update Client
+```
+tv clients update <UID>  
+``` 
