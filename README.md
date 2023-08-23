@@ -1,9 +1,9 @@
  # Python Esencial
 
- * Python es un lenguaje de programación interpretado o de script que fue creado por Guido Van Rossum, que posee una sintaxis muy limpia, planeado para que cualquier persona pueda aprender a programar.
+ * Python es un lenguaje de programación interpretado ó de script que fue creado por Guido Van Rossum, que posee una sintaxis muy limpia, planeado para que cualquier persona pueda aprender a programar.
  
  ### Ventajas:
- * **Legible:** Sintaxis intuitiva y estricta.
+ * **Legible:** Sintaxis intuitiva y estrióta.
  * **Multiplataformas:** Funciona para todo sistema operativo.
  * **Librerías:** Cuenta cuenta con muchas por defecto.
  * **Productivo:** Ahorra mucho código.
@@ -73,15 +73,59 @@ sudo apt-get install python3-tk
 
 
 ### Entorno Virtual
-* Creacion de entorno virtual.
+
+* Instalación de virtualenv.
+```
+pip install virtualenv 
+``` 
+
+* Creación de entorno virtual.
 ```
 virtualenv --python=python3 venv 
 ``` 
 
-* Activacion de entorno virtual.
+* Activación de entorno virtual.
 ```
 source venv/bin/activate 
 ``` 
+
+* Desactivar entorno virtual.
+```
+deactivate 
+``` 
+
+* Lista de paquetes.
+```
+pip freeze
+``` 
+
+### Servidor con Flask
+
+* Iniciar entorno virtual.
+
+* Instalación de Flask.
+```
+pip install flask
+``` 
+
+* Inciar servidor.
+```
+python main.py
+``` 
+
+### Requirements
+
+* Crear archivo requirements.txt.
+```
+python -m pip freeze > requirements.txt
+``` 
+
+
+* Instalación de paquetes de requirements.txt.
+```
+pip install -r requirements.txt
+``` 
+
 
 ### Editable
 * Instalacion.
